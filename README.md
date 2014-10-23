@@ -1,6 +1,7 @@
 ##Simon Pay Online CV
 
-<br>
+<br/>
+
 ### Description
 My personal online CV.
 
