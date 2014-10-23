@@ -1,4 +1,3 @@
-module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -66,7 +65,7 @@ module.exports = function(grunt) {
         compass: {
             dist: {
                 options: {
-                    config: "config.rb"
+                    config: 'config.rb'
                 }
             }
         },
