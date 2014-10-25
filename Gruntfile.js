@@ -166,7 +166,7 @@ module.exports = function(grunt) {
                 engine: 'swig',
                 data: ['<%= pkg.template_paths.data %>*.{json,yml}'],
                 assets: '<%= pkg.dest_paths.assets %>',
-                partials: '<%= pkg.template_paths.partials %>*.swig',
+                partials: '<%= pkg.template_paths.partials %>**/*.swig',
                 layoutdir: '<%= pkg.template_paths.layouts %>',
                 layoutext: '.swig',
                 layout: 'base',

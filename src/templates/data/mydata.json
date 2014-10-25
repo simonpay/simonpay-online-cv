@@ -1,0 +1,299 @@
+{
+	"portfolio": [
+		{
+			"client" 			: "Ella's Kitchen",
+			"project" 			: "Ella's Kitchen UK Website RWD Upgrade and Additional Content",
+			"subdomain" 		: "www.",
+			"domain"			: "ellaskitchen.co.uk",
+			"linkIsActive"		: true,
+			"img" 				: "folio-ellas-kitchen.jpg",
+			"requirements" 		: 
+								[
+									"WordPress",
+									"Responsive Website Design (RWD)",
+									"Interactive UX",
+									"Custom PHP Development",
+									"Web Fonts"
+								],
+			"skills"	 		:
+								[
+									"HTML5",
+									"CSS3",
+									"Sass (SCSS)",
+									"CSS Sprites",
+									"Media Queries",
+									"Photoshop",
+									"jQuery",
+									"PHP",
+									"@font-face",
+									"Cross Browser/Device/OS Compatibility"
+								]
+		},
+		{
+			"client" 			: "Sky Sports",
+			"project" 			: "Sky Sports Big Ideas Competition Website",
+			"subdomain" 		: "www1.",
+			"domain"			: "skysports.com/bigideas",
+			"linkIsActive"		: true,
+			"img" 				: "folio-sky-big-ideas.jpg",
+			"requirements" 		: 
+								[
+									"Responsive Website Design (RWD)",
+									"Interactive UX",
+									"Web Fonts"
+								],
+			"skills"	 		:
+								[
+									"HTML5",
+									"CSS3",
+									"Sass (SCSS)",
+									"Media Queries",
+									"Photoshop",
+									"jQuery",
+									"@font-face",
+									"Cross Browser/Device/OS Compatibility"
+								]
+		},
+		{
+			"client" 			: "Heineken",
+			"project" 			: "Old Mout Cider UK Website",
+			"subdomain" 		: "www.",
+			"domain"			: "oldmoutcider.co.uk",
+			"linkIsActive"		: true,
+			"img" 				: "folio-old-mout-cider.jpg",
+			"requirements" 		: 
+								[
+									"Responsive Website Design (RWD)",
+									"Interactive UX",
+									"Animations",
+									"Custom PHP Development",
+									"Web Fonts",
+									"Social Media Integration"
+								],
+			"skills"	 		:
+								[
+									"HTML5",
+									"CSS3",
+									"Sass (SCSS)",
+									"Media Queries",
+									"Foundation 5 Framework",
+									"jQuery",
+									"Photoshop",
+									"Scripted Animations",
+									"PHP",
+									"@font-face",
+									"Cross Browser/Device/OS Compatibility"
+								]
+		},
+		{
+			"client" 			: "Patrick Connolly",
+			"project" 			: "Wildlife Artist Online Portfolio",
+			"subdomain" 		: "www.",
+			"domain"			: "patrickconnolly.co.uk",
+			"linkIsActive"		: true,
+			"img" 				: "folio-patrick-connolly.jpg",
+			"requirements" 		: 
+								[
+									"WordPress",
+									"Responsive Website Design (RWD)",
+									"Child Theme Development",
+									"Custom PHP Development",
+									"Web Fonts",
+									"Gallery"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"HTML5",
+									"CSS3",
+									"Media Queries",
+									"Photoshop",
+									"WordPress",
+									"Child Theme Development",
+									"PHP",
+									"@font-face"
+								]
+		},
+		{
+			"client" 			: "Hyve",
+			"project" 			: "Corporate Website",
+			"subdomain" 		: "www.",
+			"domain"			: "hyve.com",
+			"linkIsActive"		: true,
+			"img" 				: "folio-hyve.jpg",
+			"requirements" 		: 
+								[
+									"WordPress",
+									"Custom Theme Development",
+									"Custom PHP Development",
+									"Web Fonts",
+									"Social Media Integration",
+									"Search Engine Optimisation/Marketing"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"XHTML",
+									"CSS",
+									"Photoshop",
+									"WordPress",
+									"Theme Development",
+									"PHP",
+									"Cufon",
+									"SEO/SEM",
+									"Copy Writing"
+								]
+		},
+		{
+			"client" 			: "Citibank",
+			"project" 			: "CitiDirect Training Platform",
+			"linkIsActive"		: false,
+			"img" 				: "folio-citibank.jpg",
+			"requirements" 		: 
+								[
+									"Flash-based",
+									"Animated Procedures",
+									"Complex ActionScript",
+									"Continent-specific Content",
+									"Web & CD ROM Delivery"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"Flash",
+									"ActionScript",
+									"Photoshop",
+									"XML",
+									"HTML",
+									"QuarkXPress"
+								]
+		},
+		{
+			"client" 			: "Worth Communications",
+			"project" 			: "Corporate Website",
+			"linkIsActive"		: false,
+			"img" 				: "folio-worth.jpg",
+			"requirements" 		: 
+								[
+									"Flash-based",
+									"Highly Interactive",
+									"Complex Animations"
+								],
+			"skills"	 		:
+								[
+									"Flash",
+									"ActionScript",
+									"Scripted Animations",
+									"HTML"
+								]
+		},
+		{
+			"client" 			: "Personal",
+			"project" 			: "My Online CV",
+			"linkIsActive"		: false,
+			"img" 				: "folio-simonpay.jpg",
+			"requirements" 		: 
+								[
+									"Responsive Website Design (RWD)",
+									"Twitter Bootstrap 3 Infrastructure",
+									"HTML5",
+									"CSS3",
+									"Web Fonts"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"HTML5",
+									"CSS3",
+									"Media Queries",
+									"Photoshop",
+									"Bootstrap 3 Framework",
+									"jQuery",
+									"@font-face"
+								]
+		},
+		{
+			"client" 			: "Newark Storage",
+			"project" 			: "Corporate Website",
+			"subdomain" 		: "www.",
+			"domain"			: "newarkstorage.co.uk",
+			"linkIsActive"		: true,
+			"img" 				: "folio-newark.jpg",
+			"requirements" 		: 
+								[
+									"Custom Website Design",
+									"Content Management System",
+									"Price Calculator"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"XHTML",
+									"CSS",
+									"Classic ASP",
+									"XML/XSL"
+								]
+		},
+		{
+			"client" 			: "Comet",
+			"project" 			: "Interactive widget for Russell Hobbs colour-changing kettle",
+			"linkIsActive"		: false,
+			"img" 				: "folio-comet.jpg",
+			"requirements" 		: 
+								[
+									"Flash-based",
+									"Simulation of Kettle Features",
+									"Highly Interactive",
+									"Complex Animations"
+								],
+			"skills"	 		:
+								[
+									"Flash",
+									"ActionScript",
+									"Scripted Animations"
+								]
+		},
+		{
+			"client" 			: "Kysen Design Consultancy",
+			"project" 			: "Corporate Website",
+			"linkIsActive"		: false,
+			"img" 				: "folio-kysen.jpg",
+			"requirements" 		: 
+								[
+									"Flash-based",
+									"Highly Interactive",
+									"Complex Animations",
+									"Animated 3D objects"
+								],
+			"skills"	 		:
+								[
+									"Flash",
+									"ActionScript",
+									"Scripted Animations",
+									"3D Studio Max",
+									"HTML"
+								]
+		},
+		{
+			"client" 			: "Elle S'Appelle Engraved Jewellery",
+			"project" 			: "Corporate Website",
+			"linkIsActive"		: false,
+			"img" 				: "folio-ellesappelle.jpg",
+			"requirements" 		: 
+								[
+									"Content Management System",
+									"E-Commmerce"
+								],
+			"skills"	 		:
+								[
+									"Website Design",
+									"XHTML",
+									"CSS",
+									"Classic ASP",
+									"XML/XSL",
+									"SagePay"
+								]
+		}
+	]
+}
+
