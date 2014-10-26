@@ -14,13 +14,8 @@
 	<meta name="robots" content="noodp,noydir">
 	<meta name="author" content="Simon Pay">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-
-
-	<!-- <link href="/bootstrap-3.0.3/dist/css/bootstrap.css" rel="stylesheet"> -->
-	<!-- <link href="/css/bootstrap_ms.css" rel="stylesheet"> -->
-	<!-- <link href="/css/carousel.css" rel="stylesheet"> -->
 	<link href="/stylesheets/app.css" rel="stylesheet">
-	<link rel="canonical" href="{{data.canonical}}">
+	<link rel="canonical" href="{{meta.canonical}}">
 	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,7 +24,6 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
-
 </head>
 <body>
 

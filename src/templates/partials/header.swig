@@ -15,9 +15,9 @@
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a class="nav-link" data-offset="0" data-target="html"><span class="glyphicon glyphicon-home"> </span>Home</a></li>
-					<li><a class="nav-link" data-offset="25" data-target="#online-cv"><span>#01 </span>Online CV</a></li>
-					<li><a class="nav-link" data-offset="25" data-target="#portfolio"><span>#02 </span>Portfolio</a></li>
-					<li><a class="nav-link" data-offset="25" data-target="#contact"><span>#03 </span>Contact</a></li>
+					<li><a class="nav-link" data-offset="-25" data-target="#online-cv"><span>#01 </span>Online CV</a></li>
+					<li><a class="nav-link" data-offset="-25" data-target="#portfolio"><span>#02 </span>Portfolio</a></li>
+					<li><a class="nav-link" data-offset="-25" data-target="#contact"><span>#03 </span>Contact</a></li>
 				</ul>
 			</div>
 		</div>

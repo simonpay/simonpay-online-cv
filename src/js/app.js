@@ -1,15 +1,15 @@
-function setportfoliotext() {
+var setportfoliotext = function () {
     if($(window).width() > 480){
         $("#h1-portfolio").html("<span class='section-num'>#02</span> Portfolio Examples");
     }else{
         $("#h1-portfolio").html("<span class='section-num'>#02</span> Portfolio");
     }
-}
+};
 
 
 // ================= delayed browser resize code =================
 // execute code only after the user has finished resizing the browser 
-function doneResizing() {
+var doneResizing = function () {
     var oldOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     var currHeight = $(window).height(),
@@ -27,7 +27,7 @@ function doneResizing() {
         //console.log('resize');
         setportfoliotext();
     }
-}
+};
 
 $(window).resize(function() {
     clearTimeout(this.id);
@@ -103,7 +103,7 @@ $(function() {
         $('.skills').append('<ul><li>' + k + '<span class="grade">' + grade + '</span><div class="bar"><div class="level" data-grade="' + v + '"></div></div></li></ul>');
     });
 
-    function doBarChartAnimation() {
+    var doBarChartAnimation = function () {
         if (!blnDoneBarChartAnimation) {
             blnDoneBarChartAnimation = true;
             // console.log("doBarChartAnimation()");
@@ -115,7 +115,7 @@ $(function() {
                 }, 3000);
             });
         }
-    }
+    };
 
     $('.skills').waypoint(function() {
         // console.log('Top of thing hit top of viewport.');
@@ -130,13 +130,26 @@ $(function() {
 
     $(".nav-link").click(function(){
         var obj = $(this);
-        $(obj.data('target')).ScrollTo({
-            duration: 500,
-            // easing: 'linear',
-            offsetTop: obj.data("offset")
-        });
+        $.scrollTo(
+            obj.data('target'),
+            500,
+            {
+                easing: 'swing',
+                offset: obj.data("offset")
+            }
+        );
     });
 
+    var GetTodayDate = function () {
+       var tdate = new Date();
+       // var dd = tdate.getDate(); //yields day
+       // var MM = tdate.getMonth(); //yields month
+       var yyyy = tdate.getFullYear(); //yields year
+       // var xxx = dd + "-" +( MM+1) + "-" + yyyy;
 
+       return yyyy;
+    };
+
+    $("#footer--year").html(GetTodayDate());
 
 });

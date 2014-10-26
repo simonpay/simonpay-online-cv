@@ -13,6 +13,7 @@ module.exports = function(grunt) {
                     // '<%= pkg.project_paths.bower_folder %>jquery/jquery-migrate.js',
                     '<%= pkg.project_paths.bower_folder %>bootstrap-sass-official/assets/javascripts/bootstrap.js',
                     '<%= pkg.project_paths.bower_folder %>jquery.scrollTo/jquery.scrollTo.js',
+                    // '<%= pkg.project_paths.bower_folder %>jquery.easing/js/jquery.easing.js',
                     '<%= pkg.project_paths.bower_folder %>jquery-waypoints/waypoints.js',
                     '<%= pkg.src_paths.js %>**/*.js'
                 ],
@@ -31,7 +32,7 @@ module.exports = function(grunt) {
             },
             dev: {
                 files: {
-                    '<%= pkg.dest_paths.js %>modernizr.min.js': ['<%= pkg.project_paths.bower_folder %>modernizr/modernizr.js']
+                    // '<%= pkg.dest_paths.js %>modernizr.min.js': ['<%= pkg.project_paths.bower_folder %>modernizr/modernizr.js']
                 }
             }
         },
@@ -99,7 +100,7 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         cwd: 'src/',
-                        src: 'bootstrap-3-contact-form/**',
+                        src: 'contact-form/**',
                         dest: 'build/'
                     }
                 ]

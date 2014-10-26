@@ -25,13 +25,13 @@ $(document).ready(function() {
     //send the feedback e-mail
     $.ajax({
       type: "POST",
-      url: "/bootstrap-3-contact-form/library/sendmail.php",
+      url: "/contact-form/library/sendmail.php",
       data: $("#feedbackForm").serialize(),
       success: function(data)
       {
         contactForm.addAjaxMessage(data.message, false);
         //get new Captcha on success
-        $('#captcha').attr('src', '/bootstrap-3-contact-form/library/vender/securimage/securimage_show.php?' + Math.random());
+        $('#captcha').attr('src', '/contact-form/library/vender/securimage/securimage_show.php?' + Math.random());
       },
       error: function(response)
       {

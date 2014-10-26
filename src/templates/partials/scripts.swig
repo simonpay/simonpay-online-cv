@@ -1,6 +1,5 @@
 <script src="/js/app.js"></script>
-<!-- <script src="/bootstrap-3.0.3/docs-assets/js/holder.js"></script> -->
-<script src="/bootstrap-3-contact-form/assets/js/contact-form.js"></script>
+<script src="/contact-form/assets/js/contact-form.js"></script>
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

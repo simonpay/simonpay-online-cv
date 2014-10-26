@@ -3,7 +3,7 @@
   session_start();
 
   //add you e-mail address here
-  define("MY_EMAIL", "simon@simonpay.co.uk");
+  define("MY_EMAIL", "simon.pay.ttp@gmail.com");
 
   /**
    * Sets error header and json error message response.

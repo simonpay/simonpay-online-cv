@@ -83,7 +83,6 @@
 		</div>
 	</section>	
 
-	{# {%> "portfolio" %} #}
 	{%> "contact" %}
 	{%> "footer" %}
 	
