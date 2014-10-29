@@ -2,7 +2,7 @@
   "name": "simonpay-online-cv",
   "title": "Static Site for my personal online cv",
   "description": "",
-  "version": "1",
+  "version": "0.0.1",
   "keywords": [],
   "dependencies": {
     "assemble": "~0.4.38",

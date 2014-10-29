@@ -106,7 +106,7 @@
 						<article>
 							<h4>Programming Languages</h4>
 							<p>
-								JavaScript, ActionScript, PHP.
+								JavaScript, ActionScript.
 							</p>
 						</article>
 						<article>
