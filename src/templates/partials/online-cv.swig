@@ -103,37 +103,37 @@
 								Adobe suite (advanced Photoshop), website design (UI/UX), typographic design, page layout, print design.
 							</p>
 						</article>
-						<article>
+{# 						<article>
 							<h4>Programming Languages</h4>
 							<p>
 								JavaScript, ActionScript.
 							</p>
 						</article>
-						<article>
+{#  #}						<article>
 							<h4>Pre-Processors</h4>
 							<p>
-								Sass (SCSS), LESS.
+								Sass (SCSS).
 							</p>
 						</article>
-						<article>
+ #}{# 						<article>
 							<h4>Frameworks &amp; Libraries</h4>
 							<p>
 								Zurb Foundation, Twitter Bootstrap, jQuery, jQuery UI, Modernizr, Enquire.js.
 							</p>
 						</article>
-						<article>
+ #}						<article>
 							<h4>Software/Applications</h4>
 							<p>
 								Adobe Creative Suite (advanced Photoshop, Dreamweaver, Flash, InDesign, Illustrator, Fireworks, Acrobat), Sublime Text 3, Git, SourceTree, Terminal, JIRA, BrowserStack, iOS Simulator, Genymotion (Android Emulator), Chrome Dev Tools, MAMP, Grunt, Firebug, Axure, MS Office Suite.
 							</p>
 						</article>
-						<article>
+{# 						<article>
 							<h4>Operating Systems</h4>
 							<p>
 								Mac OS X, Microsoft Windows, iOS, Android. 
 							</p>
 						</article>
-						<article>
+ #}						<article>
 							<h4>People</h4>
 							<p>
 								Excellent interpersonal &amp; communications skills - both written &amp; oral, Work effectively as part of a team or individually.

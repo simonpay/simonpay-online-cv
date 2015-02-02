@@ -1,8 +1,30 @@
 {
 	"portfolio": [
 		{
+			"client" 			: "Personal",
+			"project" 			: "Animated More4 Ident (best viewed in Chrome)",
+			"domain"			: "/examples/more4ident/",
+			"linkIsActive"		: true,
+			"img" 				: "folio-more4.jpg",
+			"requirements" 		: 
+								[
+									"CSS3 Animations"
+								],
+			"skills"	 		:
+								[
+									"HTML5",
+									"CSS3",
+									"Sass (SCSS)",
+									"jQuery",
+									"SVG",
+									"Photoshop",
+									"Illustrator"
+								]
+		},
+		{
 			"client" 			: "Ella's Kitchen",
 			"project" 			: "Ella's Kitchen UK Website RWD Upgrade and Additional Content",
+			"protocol" 		    : "http://",
 			"subdomain" 		: "www.",
 			"domain"			: "ellaskitchen.co.uk",
 			"linkIsActive"		: true,
@@ -32,6 +54,7 @@
 		{
 			"client" 			: "Sky Sports",
 			"project" 			: "Sky Sports Big Ideas Competition Website",
+			"protocol" 		    : "http://",
 			"subdomain" 		: "www1.",
 			"domain"			: "skysports.com/bigideas",
 			"linkIsActive"		: true,
@@ -57,6 +80,7 @@
 		{
 			"client" 			: "Heineken",
 			"project" 			: "Old Mout Cider UK Website",
+			"protocol" 		    : "http://",
 			"subdomain" 		: "www.",
 			"domain"			: "oldmoutcider.co.uk",
 			"linkIsActive"		: true,
@@ -88,6 +112,7 @@
 		{
 			"client" 			: "Patrick Connolly",
 			"project" 			: "Wildlife Artist Online Portfolio",
+			"protocol" 		    : "http://",
 			"subdomain" 		: "www.",
 			"domain"			: "patrickconnolly.co.uk",
 			"linkIsActive"		: true,
@@ -117,6 +142,7 @@
 		{
 			"client" 			: "Hyve",
 			"project" 			: "Corporate Website",
+			"protocol" 		    : "http://",
 			"subdomain" 		: "www.",
 			"domain"			: "hyve.com",
 			"linkIsActive"		: true,

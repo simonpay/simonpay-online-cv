@@ -27,9 +27,15 @@
 							<div class="item{% if loop.key === 0 %} active{% endif %}">
 								<div class="row">
 									<div class="col-xs-12">
-										{% if obj.linkIsActive === true %}<a class="ext-link" data-url="http://{{obj.subdomain}}{{obj.domain}}" title="Visit {{obj.domain}}">{% endif %}
-											<img src="/images/{{obj.img}}" alt="{{obj.project}}">
-										{% if obj.linkIsActive === true %}</a>{% endif %}
+										<div class="example-container">
+											{% if loop.key === 100 %}
+												<iframe id="more4ident" src="/examples/more4ident/" frameborder="0"></iframe>
+											{% else %}
+												{% if obj.linkIsActive === true %}<a class="ext-link" data-url="{{obj.protocol}}{{obj.subdomain}}{{obj.domain}}" title="Visit {{obj.domain}}">{% endif %}
+													<img src="/images/{{obj.img}}" alt="{{obj.project}}">
+												{% if obj.linkIsActive === true %}</a>{% endif %}
+											{% endif %}
+										</div>
 									</div>
 									<div class="col-xs-12">
 										<div class="row portfolio-info">
@@ -45,7 +51,7 @@
 												<article>
 													<h4>Project</h4>
 													<p>
-														{{obj.project}} {% if obj.linkIsActive === true %}<br><a class="ext-link" data-url="http://{{obj.subdomain}}{{obj.domain}}" title="Visit {{obj.domain}}">{{obj.domain}}</a>{% endif %}
+														{{obj.project}} {% if obj.linkIsActive === true %}<br><a class="ext-link" data-url="{{obj.protocol}}{{obj.subdomain}}{{obj.domain}}" title="Visit {{obj.domain}}">{{obj.domain}}</a>{% endif %}
 													</p>
 												</article>
 											</div>

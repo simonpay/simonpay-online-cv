@@ -338,11 +338,27 @@ nav a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+// .carousel-inner img {
+//     width: 287.28px;
+//     height: 239.4px;
+//     display: block;
+//     margin: 0 auto 40px;
+// }
 .carousel-inner img {
-    width: 287.28px;
-    height: 239.4px;
+    width: 100%;
+    height: 100%;
     display: block;
+}
+.example-container {
+    display: block;
+    width: 287px;
+    height: 239px;
     margin: 0 auto 40px;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
 }
 .carousel .item {
     background-color: #252525;
@@ -531,7 +547,11 @@ footer p {
     #captcha {
         width: auto;
     }
-    .carousel-inner img {
+    // .carousel-inner img {
+    //     width: 342px;
+    //     height: 285px;
+    // }
+    .example-container {
         width: 342px;
         height: 285px;
     }
@@ -587,9 +607,14 @@ footer p {
         padding-bottom: 10px;
         background: #0f0f0f;
     }
-    .carousel-inner img {
+    // .carousel-inner img {
+    //     width: 456px;
+    //     height: 380px;
+    // }
+    .example-container {
         width: 456px;
         height: 380px;
+        margin: 0 auto 40px;
     }
     .carousel-control {
         height: 390px;

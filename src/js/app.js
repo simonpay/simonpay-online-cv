@@ -74,20 +74,21 @@ $(function() {
             "SASS (SCSS)":                      80,
             "Responsive Web Design":            75,
             "Photoshop":                        95,
-            "Git":                              40,
-            "JQUERY":                           34,
-            "JavaScript":                       30,
-            "W3C Standards & Accessibility":    71,
-            "Cross browser compatibility":      75,
-            "JSON":                             20,
-            "LESS":                             34,
-            "WORDPRESS":                        30,
-            "PHP":                              10,
-            "WEB DESIGN (UI, UX)":              60,
-            "Flash / ActionScript 2":           60,
             "Illustrator":                      85,
             "InDesign":                         85,
-            "SEO / SEP ":                       50,
+            "W3C Standards & Accessibility":    71,
+            "Cross browser compatibility":      75,
+            "WEB DESIGN (UI, UX)":              60,
+            "Git":                              40,
+            "JQUERY":                           20,
+            "JavaScript":                       15,
+            "Grunt / NPM / Bower":              25,
+            // "JSON":                             20,
+            // "LESS":                             20,
+            // "WORDPRESS":                        30,
+            // "PHP":                              10,
+            // "SEO / SEP ":                       50,
+            // "Flash / ActionScript 2":           60,
         };
 
     $.each(skills, function(k, v){
@@ -151,5 +152,11 @@ $(function() {
     };
 
     $("#footer--year").html(GetTodayDate());
+
+
+    $('iframe').load( function() {
+        $('iframe').contents().find("head");
+          // .append($("<style type='text/css'>  body{background: red;}  </style>"));
+    });
 
 });

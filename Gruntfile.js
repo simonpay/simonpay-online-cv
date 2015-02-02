@@ -102,6 +102,13 @@ module.exports = function(grunt) {
                         cwd: 'src/',
                         src: 'contact-form/**',
                         dest: 'build/'
+                    },
+                    // examples of work
+                    {
+                        expand: true,
+                        cwd: 'src/',
+                        src: 'examples/**',
+                        dest: 'build/'
                     }
                 ]
             }
