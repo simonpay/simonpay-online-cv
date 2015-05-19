@@ -1,5 +1,31 @@
 {
+	"profile":	"Web designer &amp; front-end developer offering a diverse range of technical and creative skills that bridge the gap between design &amp; development. Specialising in hand-coded HTML &amp; CSS, Sass (SCSS), responsive web design (RWD), PSD to HTML, cross browser compatibility &amp; web standards.",
+	
 	"portfolio": [
+		{
+			"client" 			: "GLuru",
+			"project" 			: "Gluru Web App HTML &amp; CSS",
+			"domain"			: "/examples/gluru/",
+			"linkIsActive"		: true,
+			"img" 				: "folio-gluru.jpg",
+			"requirements" 		: 
+								[
+									"Responsive Website Design (RWD)",
+									"Interactive UX",
+									"Custom PHP Development",
+									"Web Fonts"
+								],
+			"skills"	 		:
+								[
+									"HTML5",
+									"CSS3",
+									"Sass (SCSS)",
+									"jQuery",
+									"SVG",
+									"Photoshop",
+									"Illustrator"
+								]
+		},
 		{
 			"client" 			: "Personal",
 			"project" 			: "Animated More4 Ident (best viewed in Chrome)",
@@ -34,7 +60,7 @@
 									"WordPress",
 									"Responsive Website Design (RWD)",
 									"Interactive UX",
-									"Custom PHP Development",
+									"Basic PHP",
 									"Web Fonts"
 								],
 			"skills"	 		:

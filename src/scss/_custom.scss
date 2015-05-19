@@ -132,6 +132,12 @@ h4 {
     border-left: 3px solid #ffaa00;
     color: #fff;
 }
+h5 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+    color: #c4c3c3;
+}
 .right-col p {
     font-weight: 500;
     margin-bottom: 30px;
@@ -237,6 +243,7 @@ nav a:hover {
     font-weight: 500;
     font-style: italic;
     color: #aeaeae;
+    margin-left: 14px;
 }
 .e-hist article {
     margin: 0 0 30px 0;

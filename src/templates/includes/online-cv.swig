@@ -1,0 +1,100 @@
+<section id="online-cv">
+	<div class="container">
+		<h1><span class="section-num">#01</span> Online CV</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-sm-8 col-md-8 left-col">
+						<h3>Profile</h3>
+						<p class="intro">
+							{{ mydata.profile }}
+						</p>
+		
+						<h3>Employment History</h3>
+						<section class="e-hist">
+
+							{% for obj_employment in employment_history %}
+
+								<article>
+									<strong>{{ obj_employment.employer }}</strong>
+									<div class="role">{{ obj_employment.role }}</div>
+									<div class="date">{{ obj_employment.date }}</div>
+
+									{{ obj_employment.html|safe }}
+
+								</article>
+
+							{% endfor %}
+
+						</section>
+					</div>
+
+					<section class="col-sm-4 col-md-4 right-col">
+
+						<h4>Skills</h4>
+						<p>
+							Each skill is graded <i>basic</i>, <i>intermediate</i> and <i>advanced</i>. The order is based on where I would like to concentrate the majority of my time.
+						</p>
+						<div class="skills"></div>
+
+
+						<h4>Development Skills</h4>
+						<p>
+							Hand-coded HTML5 &amp; CSS3, Sass (SCSS), responsive web design (RWD), PSD to HTML, JavaScript, jQuery, web standards, cross browser compatibility including mobile devices &amp; operating systems, Grunt / Bower / NPM.
+						</p>
+
+
+						<h4>Design Skills</h4>
+						<p>
+							Adobe suite (advanced Photoshop), website design (UI/UX), typographic design, page layout, print design.
+						</p>
+
+
+						<h4>Software/Applications</h4>
+						<p>
+							Adobe Creative Suite (advanced Photoshop, Dreamweaver, Flash, InDesign, Illustrator), Sublime Text 3, Git, SourceTree, Terminal, JIRA, BrowserStack, iOS Simulator, Genymotion (Android Emulator), Chrome Dev Tools, MAMP, Grunt, Firebug, Axure, MS Office Suite.
+						</p>
+
+
+						<h4>People</h4>
+						<p>
+							Excellent interpersonal &amp; communications skills - both written &amp; oral, Work effectively as part of a team or individually.
+						</p>
+
+
+						<h4>Education</h4>
+
+						<h5>HND / Typographic Design</h5>
+						<p>
+							<em>London College of Printing (LCP)<br>
+							London – 1996</em>
+						</p>
+
+						<h5>BTEC ND / CLS (Calligraphy, Lettering &amp; Signwork)</h5>
+						<p>
+							<em>Reigate school of Art &amp; Design<br>
+							Reigate – 1994</em>
+						</p>
+
+						<h5>2 A Levels / 8 GCSEs</h5>
+						<p>
+							<em>St Bedes School<br>
+							Redhill – 1992</em>
+						</p>
+
+
+						<h4>Interests</h4>
+						<p><em>I’m happiest when building or creating something - a website, a piece of furniture or even a technical Lego model. Here’s a list of my main interests: web design & development, digital photography, typography, property renovation, carpentry/DIY, model aircraft (quadcopters/drones), tennis/table-tennis, scuba diving.</em></p>
+
+
+						<h4>References</h4>
+						<p><em>Available on request</em></p>
+
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

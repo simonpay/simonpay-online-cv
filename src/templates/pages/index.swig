@@ -2,7 +2,7 @@
 
 	{%> "header" %}
 	{%> "hero-image" %}
-	{%> "online-cv" %}
+	{% include "src/templates/includes/online-cv.swig" %}
 
 	<section id="portfolio">
 		<div class="container">
