@@ -1,0 +1,205 @@
+/*------------------------------------*\
+    #UTILITIES - prefixed with "u-"
+\*------------------------------------*/
+
+// NOTE: due to element’s appearance not staying 
+// constant (RWD), utility class are used sparingly 
+// - most styles are component-based (modules)
+// Ref: http://davidtheclark.com/on-utility-classes/
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.u-cf:before,
+.u-cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.u-cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.u-cf {
+    *zoom: 1;
+}
+
+.u-fr {
+    float: right !important;
+}
+
+
+
+.u-center-transform {
+    @include scut-center-transform;
+}
+
+.u-center-transform-x {
+    @include scut-center-transform(x);
+}
+
+.u-center-transform-y {
+    @include scut-center-transform(y);
+}
+
+
+.u-center-block {
+    // margin-left: auto !important;
+    // margin-right: auto !important;
+	@include scut-center-block;
+}
+
+.u-full-width {
+	width: 100%;
+}
+
+.u-inherit-height {
+    position: relative;
+	height: inherit;
+}
+
+.u-display-none {
+	display: none;
+}
+
+
+// vertical space
+// spacer used to add additional vertical height
+.u-spacer {
+    height: 20px;
+
+    &.-xxlrg {
+        height: 300px;
+    }
+}
+
+// custom fixed-width container
+// TODO: refactor
+// unlikely that this will stay - cant currently think 
+// of a better way to create modular custom fixed width
+// containers when needed  
+.u-layout {
+
+    &.-w-310 {
+        width: 310px;
+    }
+
+    &.-w-400 {
+        width: 400px;
+    }
+}
+
+// margin
+// .u-mh {
+//     margin-top: $base-line-height !important;
+//     margin-bottom: $base-line-height !important;
+// }
+
+// .u-mh\+ {
+//     margin-top: $base-line-height * 1.5 !important;
+//     margin-bottom: $base-line-height * 1.5 !important;
+// }
+
+// .u-mh\+\+ {
+//     margin-top: $base-line-height * 2 !important;
+//     margin-bottom: $base-line-height * 2 !important;
+// }
+
+// .u-mh\+\+\+ {
+//     margin-top: $base-line-height * 2.5 !important;
+//     margin-bottom: $base-line-height * 2.5 !important;
+// }
+
+.u-mb {
+    margin-bottom: $base-line-height !important;
+}
+
+// .u-mb\+ {
+//     margin-bottom: $base-line-height * 1.5 !important;
+// }
+
+// .u-mb\+\+ {
+//     margin-bottom: $base-line-height * 2 !important;
+// }
+
+// .u-mb\+\+\+ {
+//     margin-bottom: $base-line-height * 2.5 !important;
+// }
+
+// .u-mb- {
+//     margin-bottom: $base-line-height / 1.5 !important;
+// }
+
+.u-mb-- {
+    margin-bottom: $base-line-height / 2 !important;
+}
+
+.u-mb------ {
+    margin-bottom: $base-line-height / 4 !important;
+}
+
+// .u-ml {
+//     margin-left: $base-line-height !important;
+// }
+
+// .u-ml\+ {
+//     margin-left: $base-line-height * 1.5 !important;
+// }
+
+// .u-ml\+\+ {
+//     margin-left: $base-line-height * 2 !important;
+// }
+
+// .u-ml- {
+//     margin-left: $base-line-height / 2 !important;
+// }
+
+// .u-mr {
+//     margin-right: $base-line-height !important;
+// }
+
+// .u-mr- {
+//     margin-right: $base-line-height / 2 !important;
+// }
+
+// .u-mb0 {
+//     margin-bottom: 0 !important;
+// }
+
+.u-m0 {
+    margin: 0 !important;
+}
+
+// text color
+.u-orange {
+    color: $orange !important;
+}
+
+.u-gray {
+    color: $gray !important;
+}
+
+.u-alabaster {
+    color: $alabaster !important;
+}
+
+// // text-align
+// .u-text-center {
+//     text-align: center !important;
+// }
+
+// .u-text-right {
+//     text-align: right !important;
+// }
+

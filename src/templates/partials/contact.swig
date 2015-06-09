@@ -35,9 +35,8 @@
 			</div>
 			<div class="col-sm-4 right-col">
 				<header>
-					<div class="n">Simon<span class="squeeze">&nbsp;</span>Pay</div>
-					<div class="wd">Web<span class="squeeze">&nbsp;</span>Designer<span class="squeeze"> </span><span class="plus">+</span></div>
-					<div class="fd">Front<span class="dash">&#45;</span>end<span class="squeeze">&nbsp;</span>Developer</div>
+					<div class="u-alabaster">Simon<span class="squeeze">&nbsp;</span>Pay</div>
+					<div class="u-orange">Front<span class="dash">&#45;</span>end Developer</div>
 				</header>
 				<div class="contact-details">
 					<p class="location">
@@ -47,7 +46,8 @@
 					<p class="details">
 						Mobile: 07740 678 021<br>
 						Web: simonpay.co.uk<br>
-						Email: <a href="mailto:simon.pay.ttp@gmail.com">simon.pay.ttp@gmail.com</a>
+						Email: <a href="mailto:simon.pay.ttp@gmail.com">simon.pay.ttp@gmail.com</a><br>
+						LinkedIn: <a href="http://linkedin.com/in/simonpay" target="_blank">linkedin.com/in/simonpay</a>
 					</p>
 				</div>
 			</div>

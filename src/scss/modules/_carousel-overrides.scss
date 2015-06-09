@@ -1,0 +1,159 @@
+/*------------------------------------*\
+# CAROUSEL OVERRIDES
+\*------------------------------------*/
+
+// overrides for styling of bootstrap carousel 
+
+.carousel,
+.carousel .item {
+    height: auto;
+    margin: 0px;
+}
+
+.carousel .item h4 {
+    font-size: 0.9em;
+    margin: 0 0 5px;
+    padding: 0 0 0 7px;
+    padding: 4px 0px 4px 7px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.15);
+}
+
+.carousel .item p {
+    font-size: 1em;
+    color: #c4c3c3;
+    margin-bottom: 15px;
+    padding: 0 0 0 7px;
+    border-left: 3px solid rgba(255, 255, 255, 0.05);
+}
+
+.carousel-indicators {
+    top: 251px;
+    bottom: auto;
+    width: 80%;
+    margin-left: -40%;
+
+    li {
+        @include transition( background-color .3s );
+
+        &:hover:not(.active) {
+            background-color: rgba( $white, 1 );
+        }
+
+        &.active {
+            border-color: $orange;
+        }
+    }
+}
+
+#portfolio .container.carousel-wrap {
+    background: #313131;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+// .carousel-inner img {
+//     width: 287.28px;
+//     height: 239.4px;
+//     display: block;
+//     margin: 0 auto 40px;
+// }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.example-container {
+    display: block;
+    width: 287px;
+    height: 239px;
+    margin: 0 auto 40px;
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.carousel .item {
+    background-color: #252525;
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background: transparent;
+}
+
+.carousel-control {
+    top: 0px;
+    height: 270px;
+    bottom: auto;
+    width: 5%;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    top: auto;
+    bottom: 0px;
+    left: auto;
+    right: 0px;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    right: auto;
+    left: 0px;
+}
+
+
+.carousel ul {
+    list-style: none outside none;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0 0 0 7px;
+    border-left: 3px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+
+    li {
+        float: left;
+        position: relative;
+        // padding: 0 5px 0 10px;
+        color: #c4c3c3;
+    }
+
+    // li:before,
+    // li:after,
+    // {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 0px;
+    // }
+
+    // li:before {
+    //     z-index: 10;
+    //     top: 3px;
+    //     width: 7px;
+    //     height: 1px;
+    //     margin-top: 6px;
+    //     background: none repeat scroll 0% 0% $orange;
+    // }
+
+    // li:after {
+    //     z-index: 11;
+    //     left: 3px;
+    //     width: 1px;
+    //     height: 7px;
+    //     margin-top: 6px;
+    //     background: none repeat scroll 0% 0% $orange;
+    // }
+}
+
+.carousel-indicators .active {
+    // margin: 0;
+    // width: 12px;
+    // height: 12px;
+    background-color: $orange;
+}
+
+

@@ -1,0 +1,107 @@
+*::-moz-selection {
+    background: none repeat scroll 0% 0% #ffaa00;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+}
+
+*::selection {
+    background: none repeat scroll 0% 0% #ffaa00;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+}
+/* Make HTML 5 elements display block-level for consistent styling */
+
+header,
+nav,
+article,
+footer,
+address {
+    display: block;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-size: 100%;
+    min-width: 320px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #232323;
+    font-family: 'Alegreya Sans', arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.33;
+    color: #c4c3c3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Alegreya Sans', arial, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: #eaeaea;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+p {
+    font-weight: normal;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: #ffaa00;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 70px 0 30px;
+    font-family: 'merriweatherlight', Times, serif;
+    font-weight: normal;
+    font-size: 2.15em;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #ffaa00;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0 0 5px;
+    padding: 0 0 0 7px;
+    color: #cecece;
+    text-transform: uppercase;
+    border-left: 3px solid #ffaa00;
+    color: rgba(#fff, .85);
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    color: #c4c3c3;
+}

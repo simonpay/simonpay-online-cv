@@ -1,0 +1,20 @@
+/*------------------------------------*\
+# ICONS
+\*------------------------------------*/
+
+.icon__ext-link--white {             	@include use-sprite("icon__ext-link--white"); }
+.icon__ext-link--orange {             	@include use-sprite("icon__ext-link--orange"); }
+.icon__int-link--white {             	@include use-sprite("icon__int-link--white"); }
+.icon__int-link--orange {             	@include use-sprite("icon__int-link--orange"); }
+.icon__date--orange {             		@include use-sprite("icon__date--orange"); }
+.icon__mouse--orange {             		@include use-sprite("icon__mouse--orange"); 
+	.info-panel & {
+		margin-right: -2px;
+	}
+}
+
+.icon {
+	display: inline-block;
+	@include transform( translateY(-1px) );
+	// margin-right: 5px;
+}

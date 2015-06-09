@@ -1,0 +1,67 @@
+/*------------------------------------*\
+# ICON LINK
+\*------------------------------------*/
+
+// links with icons at the end, showing external and internal links
+
+.icon-link {
+    position: relative;
+    // display: inline-block;
+    padding-right: 16px;
+    font-weight: 400;
+    color: $orange;
+
+    &:hover {
+        color: #fff;
+
+        &:before {
+            opacity: 0;
+        }
+
+        &:after {
+            opacity: 1;
+        }
+    }
+
+    .example-container & {
+
+        &:before, &:after {
+            content: "";
+        }
+    }
+
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        right: 2px;
+        @include use-sprite("icon__ext-link--white");
+        @include transition( opacity .3s);
+    }
+
+    &:after {
+        opacity: 0;
+        @include use-sprite("icon__ext-link--orange");
+
+    }
+
+    &.-internal {
+
+        &:before {
+            @include use-sprite("icon__int-link--white");
+        }
+
+        &:after {
+            @include use-sprite("icon__int-link--orange");
+        }
+    }
+
+    .example-container & {
+        &:before, &:after {
+            content: none;
+        }
+    }
+}
+

@@ -6,8 +6,10 @@ add_import_path "bower_components/neat/app/assets/stylesheets"
 add_import_path "bower_components/normalize-scss"
 add_import_path "bower_components/scut/dist"
 add_import_path "bower_components/bootstrap-sass-official/assets/stylesheets"
+add_import_path "bower_components/Retina-sprites-for-Compass/src"
 
 # Set this to the root of your project when deployed:
+http_generated_images_path = "../images/" # path to generated spritemap image
 http_path = "/"
 css_dir = "build/stylesheets"
 sass_dir = "src/scss"

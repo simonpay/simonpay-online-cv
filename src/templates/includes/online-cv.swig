@@ -1,6 +1,6 @@
 <section id="online-cv">
 	<div class="container">
-		<h1><span class="section-num">#01</span> Online CV</h1>
+		<h1><span class="section-num">#01</span> Digital CV</h1>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -17,12 +17,33 @@
 
 							{% for obj_employment in employment_history %}
 
-								<article>
-									<strong>{{ obj_employment.employer }}</strong>
+								<article id="{{ obj_employment.employer_id }}">
+									<div class="employer">{{ obj_employment.employer }}</div>
 									<div class="role">{{ obj_employment.role }}</div>
-									<div class="date">{{ obj_employment.date }}</div>
+									<div class="info-panel">
+										<div class="media">
+											<div class="media__img -small-margin"><div class="icon icon__date--orange"></div></div>
+											<div class="media__body"><p class="info-panel__heading u-m0">{{ obj_employment.date }}</p></div>
+										</div>
+									</div>
+									
+									<div class="text-block">
+										{{ obj_employment.html|safe }}
+									</div>
+									
+									<div class="info-panel -skills">
 
-									{{ obj_employment.html|safe }}
+										<div class="media">
+											<div class="media__img -small-margin"><div class="icon icon__mouse--orange"></div></div>
+											<div class="media__body"><p class="info-panel__heading u-mb--">Key Skills &amp; Technologies</p></div>
+										</div>
+
+										<ul class="caps-list">
+											{% for obj_skill in obj_employment.skills %}
+												<li class="cross-bullet">{{ obj_skill }}</li>
+											{% endfor %}
+										</ul>
+									</div>
 
 								</article>
 
@@ -37,7 +58,9 @@
 						<p>
 							Each skill is graded <i>basic</i>, <i>intermediate</i> and <i>advanced</i>. The order is based on where I would like to concentrate the majority of my time.
 						</p>
-						<div class="skills"></div>
+						<div class="skills">
+							<ul class="skills__list"></ul>
+						</div>
 
 
 						<h4>Development Skills</h4>
@@ -80,13 +103,13 @@
 
 						<h5>2 A Levels / 8 GCSEs</h5>
 						<p>
-							<em>St Bedes School<br>
+							<em>St Bede's School<br>
 							Redhill – 1992</em>
 						</p>
 
 
 						<h4>Interests</h4>
-						<p><em>I’m happiest when building or creating something - a website, a piece of furniture or even a technical Lego model. Here’s a list of my main interests: web design & development, digital photography, typography, property renovation, carpentry/DIY, model aircraft (quadcopters/drones), tennis/table-tennis, scuba diving.</em></p>
+						<p><em>I’m happiest when building or creating something - a website, a piece of furniture or even a technical Lego model. Here’s a list of my main interests: web design &amp; development, digital photography, typography, property renovation, carpentry/DIY, model aircraft (quadcopters/drones), tennis/table-tennis, scuba diving.</em></p>
 
 
 						<h4>References</h4>

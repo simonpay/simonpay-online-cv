@@ -1,0 +1,72 @@
+/*------------------------------------*\
+# MEDIA OBJECT
+\*------------------------------------*/
+
+.media {
+    overflow: hidden;
+    
+    // // make height the same as container when inside 
+    // // '-v-center' class present (this vrtically centers 
+    // // the content - media__body & media__img)
+    // // to work, the parent must have a 'height' value
+    // &.-v-center {
+    //     height: inherit;
+    // }
+    
+    // // block in settings section where we need 
+    // // to prevent width for being 100% 
+    // &.-settings {
+    //     float: left;
+    // }
+}
+
+    .media__body {
+        overflow: hidden;
+
+        // sources loader in setup section
+        .sources__col--action & {
+            overflow: visible;
+        }
+        
+        // resolve issue in firefox with header-nav__link
+        // where if no float set on media__body, the icon 
+        // in media__img reduces the width of media__body
+        // (by the same width as media__icon) so reults in 
+        // the text being truncated
+        // TODO: investigate this further
+        &.-float-left {
+            float: left;
+        }
+    }
+
+    .media__img {
+        float: left;
+        margin-right: 10px;
+
+        &.-small-margin {
+            margin-right: 7px;
+        }
+
+        &.-right {
+            float: right;
+            margin-right: 0;
+            margin-left: 10px;
+
+            &.-small-margin {
+                margin-left: 7px;
+            }
+        }
+    }
+
+    .media__body,
+    .media__img,
+    {
+        // vertically center media__body & media__img 
+        // when inside '-v-center' class 
+        // to work, the parent of '.media' must have a 'height' value
+        .-v-center > & {
+            @include scut-center-transform(y);
+            position: relative;
+        }
+    }
+

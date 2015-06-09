@@ -72,23 +72,16 @@ $(function() {
             "HTML":                             90,
             "CSS":                              93,
             "SASS (SCSS)":                      80,
-            "Responsive Web Design":            75,
+            "Responsive Web Design":            70,
             "Photoshop":                        95,
             "Illustrator":                      85,
             "InDesign":                         85,
-            "W3C Standards & Accessibility":    71,
-            "Cross browser compatibility":      75,
+            "Cross browser compatibility":      65,
             "WEB DESIGN (UI, UX)":              60,
             "Git":                              40,
-            "JQUERY":                           20,
-            "JavaScript":                       15,
-            "Grunt / NPM / Bower":              25,
-            // "JSON":                             20,
-            // "LESS":                             20,
-            // "WORDPRESS":                        30,
-            // "PHP":                              10,
-            // "SEO / SEP ":                       50,
-            // "Flash / ActionScript 2":           60,
+            "JQUERY":                           33,
+            "JavaScript":                       20, //
+            "Grunt / NPM / Bower":              30, //
         };
 
     $.each(skills, function(k, v){
@@ -101,7 +94,7 @@ $(function() {
             grade = "advanced";
         }
 
-        $('.skills').append('<ul><li>' + k + '<span class="grade">' + grade + '</span><div class="bar"><div class="level" data-grade="' + v + '"></div></div></li></ul>');
+        $('.skills__list').append('<li class="skills__item">' + k + '<span class="grade">' + grade + '</span><div class="bar"><div class="level" data-grade="' + v + '"></div></div></li>');
     });
 
     var doBarChartAnimation = function () {
@@ -125,11 +118,11 @@ $(function() {
 
     var blnDoneBarChartAnimation = false;
 
-    $('.ext-link').click(function(){
+    $('.js-link').click(function(){
         window.open($(this).data('url'), '_blank');
     });
 
-    $(".nav-link").click(function(){
+    $(".js-scroll-to").click(function(){
         var obj = $(this);
         $.scrollTo(
             obj.data('target'),

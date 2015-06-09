@@ -8,3 +8,34 @@
 // $default-feature: min-width; // Default @media feature for the breakpoint() mixin
 // $default-layout-direction: LTR;
 
+// colors
+$orange:					#ffaa00;
+$cod-gray:					#0F0F0F;
+
+
+// grayscale range   
+$white:                     #fff;                       // white
+$alabaster:                 #fafafa;                    // virtually white
+$wild-sand:                 #f5f5f5;
+$gallery:                   #eee;                       // off white
+$alto:                      #ddd;                       // very light gray
+$alto-dark:                 #d4d4d4;
+$silver:                    #ccc;                       // light gray
+$silver-chalice:            #b2b2b2;
+$dusty-gray:                #999;                       // mid-light gray
+$gray:                      #7f7f7f;                    // mid gray
+$dove-gray:                 #666;                       // dark gray
+$tundora:                   #4c4c4c;
+$mine-shaft:                #333;                       // very dark gray
+$black:                     #000;                       // black
+
+// -----------------------------------
+// VERTICAL RYTHM
+// -----------------------------------
+$em-base:           						16px;
+$base-font-size:    						$em-base;
+$base-line-height:  						22px;
+$default-margin:    						$base-line-height;
+
+// html declaration in _base.scss
+$line-height:								$base-line-height / $base-font-size;

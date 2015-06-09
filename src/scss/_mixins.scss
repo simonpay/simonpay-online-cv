@@ -1,0 +1,11 @@
+// -----------------------------------
+// MEDIA QUERY MIXINS
+// -----------------------------------
+// media queries for responsive views
+@mixin mq($screen) {
+    @if $screen == ms {
+        @media only screen and (min-width: 480px) and (max-width: 767px) { @content; }
+    } @else if $screen == sm {
+        @media only screen and (min-width: 768px) { @content; }
+    }
+}

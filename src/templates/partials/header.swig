@@ -9,24 +9,24 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div class="navbar-brand logo-nav">
-				   <a href="index.php">Simon Pay</a> <span class="wd">Web Designer</span>
+				   <a href="/">Simon<span class="squeeze">&nbsp;</span>Pay</a> <span class="navbar-brand__prof u-orange">Front<span class="dash">&#45;</span>End Developer</span>
 				</div>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a class="nav-link" data-offset="0" data-target="html"><span class="glyphicon glyphicon-home"> </span>Home</a></li>
-					<li><a class="nav-link" data-offset="-25" data-target="#online-cv"><span>#01 </span>Online CV</a></li>
-					<li><a class="nav-link" data-offset="-25" data-target="#portfolio"><span>#02 </span>Portfolio</a></li>
-					<li><a class="nav-link" data-offset="-25" data-target="#contact"><span>#03 </span>Contact</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="0" data-target="html"><span class="nav-link__prefix glyphicon glyphicon-home"> </span>Home</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#online-cv"><span class="nav-link__prefix">#01 </span>Digital CV</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#portfolio"><span class="nav-link__prefix">#02 </span>Portfolio</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#contact"><span class="nav-link__prefix">#03 </span>Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<section id="siteinfo">
 		<div class="container">
-			<div class="n">Simon<span class="squeeze">&nbsp;</span>Pay</div>
-			<div class="wd">Web<span class="squeeze">&nbsp;</span>Designer<span class="squeeze"> </span><span class="plus">+</span></div>
-			<div class="fd">Front<span class="dash">&#45;</span>end<span class="squeeze">&nbsp;</span>Developer</div>
+			<div class="u-alabaster">Simon<span class="squeeze">&nbsp;</span>Pay</div>
+			<div class="u-orange">Front<span class="dash">&#45;</span>end Developer</div>
+			{# <div class="u-gray">Digital<span class="squeeze">&nbsp;</span>curriculum vitae</div> #}
 		</div>
 	</section>
 </header>

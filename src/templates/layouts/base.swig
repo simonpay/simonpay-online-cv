@@ -16,6 +16,7 @@
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<link href="/stylesheets/app.css" rel="stylesheet">
 	<link rel="canonical" href="{{meta.canonical}}">
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
 	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

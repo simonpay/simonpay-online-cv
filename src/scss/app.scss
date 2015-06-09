@@ -1,9 +1,152 @@
-@import "normalize";
+// ------------------------------------------------
+// MASTER SCSS FILE
+// ------------------------------------------------
+
+
+
+// ------------------------------------------------
+// VENDOR LIBRARIES & GLOBAL CONFIG
+// ------------------------------------------------
+
+// BOURBON
+// ------------------------------------------------
+// lightweight mixin library for Sass
 @import "bourbon";
+
+// GLOBAL CONFIG
+// ------------------------------------------------
+// Variables, colors, font stacks, etc
+// settings.scss must be loaded before any components 
+// that have configurable variables (e.g. neat) so 
+// that !default values can be overridden
 @import "settings";
-@import "neat";
+
+// // NEAT
+// // ------------------------------------------------
+// // lightweight semantic grid framework for Sass and Bourbon
+// @import "neat";
+
+// SCUT
+// ------------------------------------------------
+// collection of Sass utilities to ease and improve 
+// our implementations of common style-code patterns.
 @import "scut";
+
+// RETINA SPRITES
+// ------------------------------------------------
+// sprites via compass (loaded with Bower) - see 
+// config.rb file for load path
+@import "retina-sprites";
+
+// BOOTSTRAP
+// ------------------------------------------------
+// Bootstrap responsive css framework
 @import "bootstrap";
 
-// Custom SCSS
+
+
+// ------------------------------------------------
+// MIXINS
+// ------------------------------------------------
+// Project-specific mixins and extends
+@import "mixins";
+
+
+
+// ------------------------------------------------
+// FONTS
+// ------------------------------------------------
+// @font-face webfonts
+@import "fonts";
+
+
+
+// ------------------------------------------------
+// ANIMATIONS
+// ------------------------------------------------
+// @keyframe animations
+// @import "animations"
+
+
+
+// ------------------------------------------------
+// BASE STYLES
+// ------------------------------------------------
+
+// NORMALIZE
+// ------------------------------------------------
+// css reset
+@import "normalize";
+
+// BASE
+// ------------------------------------------------
+// Base styles and other resets etc
+@import "base";
+
+// UTILITIES
+// ------------------------------------------------
+// Utilities, state classes, rules with !important
+@import "utilities";
+
+
+
+// ------------------------------------------------
+// MODULES
+// ------------------------------------------------
+// The majority of elements are modules - even layout elements (sidebar, containers etc)
+
+@import "modules/icons",
+        "modules/cross-bullet",
+        "modules/media-object",
+        "modules/icon-link",
+        "modules/carousel-overrides";
+
+// // forms
+// @import "modules/forms/form-elements",
+//         "modules/forms/select2-overrides",
+//         "modules/forms/jquery-ui-overrides";
+
+
+// ------------------------------------------------
+// MISC
+// ------------------------------------------------
+// Anything that doesnt quite fit anywhere else
 @import "custom";
+// @import "shame"; // temp stuff or code in need of refactoring
+// @import "dev";
+
+
+// ------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------
+// responsive styles inside @media rules
+@import "responsive";
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @import "normalize";
+// @import "bourbon";
+// @import "settings";
+// @import "neat";
+// @import "scut";
+// @import "bootstrap";
+
+// // RETINA SPRITES
+// // ------------------------------------------------
+// // sprites via compass (loaded with Bower) - see 
+// // config.rb file for load path
+// @import "retina-sprites";
+
+// // Custom SCSS
+// @import "icons";
+// @import "custom";

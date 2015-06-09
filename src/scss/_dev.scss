@@ -1,0 +1,29 @@
+body:after {
+    position:fixed;
+    top:2px;
+    left:2px;
+    color:black;
+    z-index:99999;
+    background:rgba(255,255,255,0.75);
+    content:"xs";
+}
+@media (min-width: 480px) and (max-width: 767px){
+	body:after {
+	    content:"ms";
+	}
+}
+@media (min-width: 768px){
+	body:after {
+	    content:"sm";
+	}
+}
+@media (min-width: 992px){
+	body:after {
+	    content:"md";
+	}
+}
+@media (min-width: 1200px){
+	body:after {
+	    content:"lg";
+	}
+}
