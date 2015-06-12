@@ -39,6 +39,7 @@
             "jQuery-UI",
             "CSS Sprites",
             "WordPress",
+            "Cross browser / device / OS compatibility",
             "Grunt / Bower / NPM"
         ]
     },
