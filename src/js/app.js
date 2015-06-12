@@ -67,22 +67,21 @@ $(function() {
     }, { offset: 70 });
 
 
-    var skills = 
-        {
-            "HTML":                             90,
-            "CSS":                              93,
-            "SASS (SCSS)":                      80,
-            "Responsive Web Design":            70,
-            "Photoshop":                        95,
-            "Illustrator":                      85,
-            "InDesign":                         85,
-            "Cross browser compatibility":      65,
-            "WEB DESIGN (UI, UX)":              60,
-            "Git":                              40,
-            "JQUERY":                           33,
-            "JavaScript":                       20, //
-            "Grunt / NPM / Bower":              30, //
-        };
+    var skills = {
+        "HTML":                             90,
+        "CSS":                              93,
+        "SASS (SCSS)":                      80,
+        "Responsive Web Design":            70,
+        "Photoshop":                        95,
+        "Illustrator":                      85,
+        "InDesign":                         85,
+        "Cross browser compatibility":      65,
+        "WEB DESIGN (UI, UX)":              60,
+        "Git":                              40,
+        "JQUERY":                           33,
+        "JavaScript":                       20, //
+        "Grunt / NPM / Bower":              30, //
+    };
 
     $.each(skills, function(k, v){
         var grade;
@@ -147,9 +146,27 @@ $(function() {
     $("#footer--year").html(GetTodayDate());
 
 
-    $('iframe').load( function() {
-        $('iframe').contents().find("head");
-          // .append($("<style type='text/css'>  body{background: red;}  </style>"));
-    });
+    // iframe for more4 logo - not used currently
+    // $('iframe').load( function() {
+    //     $('iframe').contents().find("head");
+    //       // .append($("<style type='text/css'>  body{background: red;}  </style>"));
+    // });
+
+
+    // scroll to link from hash in url
+    // use _ to prevent browser from auto setting scroll pos to el
+    var elem = $( window.location.hash.replace("#_", "#") );
+    if(window.location.hash && elem) {
+        // console.log( "true" );
+        // console.log( elem );
+        $.scrollTo(
+            elem,
+            500,
+            {
+                easing: 'swing',
+                offset: -80
+            }
+        );
+    }
 
 });
