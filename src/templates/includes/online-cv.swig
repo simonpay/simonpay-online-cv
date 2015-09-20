@@ -1,4 +1,4 @@
-<section id="online-cv">
+<section class="js-section" id="online-cv">
 	<div class="container">
 		<h1><span class="section-num">#01</span> Digital CV</h1>
 	</div>

@@ -15,6 +15,7 @@ module.exports = function(grunt) {
                     '<%= pkg.project_paths.bower_folder %>jquery.scrollTo/jquery.scrollTo.js',
                     // '<%= pkg.project_paths.bower_folder %>jquery.easing/js/jquery.easing.js',
                     '<%= pkg.project_paths.bower_folder %>jquery-waypoints/waypoints.js',
+                    '<%= pkg.project_paths.bower_folder %>bootstrap/js/scrollspy.js',
                     '<%= pkg.src_paths.js %>**/*.js'
                 ],
                 dest: '<%= pkg.dest_paths.js %>app.js'

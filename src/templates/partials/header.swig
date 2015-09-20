@@ -12,12 +12,12 @@
 				   <a href="/">Simon<span class="squeeze">&nbsp;</span>Pay</a> <span class="navbar-brand__prof u-orange">Front<span class="dash">&#45;</span>End Developer</span>
 				</div>
 			</div>
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a class="nav-link js-scroll-to" data-offset="0" data-target="html"><span class="nav-link__prefix glyphicon glyphicon-home"> </span>Home</a></li>
-					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#online-cv"><span class="nav-link__prefix">#01 </span>Digital CV</a></li>
-					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#portfolio"><span class="nav-link__prefix">#02 </span>Portfolio</a></li>
-					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#contact"><span class="nav-link__prefix">#03 </span>Contact</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="0" data-target="#home" id="nav-home"><span class="nav-link__prefix glyphicon glyphicon-home"> </span>Home</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#online-cv" id="nav-online-cv"><span class="nav-link__prefix">#01 </span>Digital CV</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#portfolio" id="nav-portfolio"><span class="nav-link__prefix">#02 </span>Portfolio</a></li>
+					<li><a class="nav-link js-scroll-to" data-offset="-25" data-target="#contact" id="nav-contact"><span class="nav-link__prefix">#03 </span>Contact</a></li>
 				</ul>
 			</div>
 		</div>

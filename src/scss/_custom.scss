@@ -74,6 +74,14 @@
     transition: color 0.2s ease-in-out;
 }
 
+// ovrride bootstrap
+.nav .active {
+    &.active a:hover,
+    &.active a { // ovrride bootstrap
+        background-color: inherit;
+    }
+}
+
 // nav a span {
 .nav-link__prefix {
     font-family: 'merriweatherbold', Times, serif;
@@ -89,7 +97,8 @@
     }
 }
 
-nav a:hover {
+nav a:hover,
+.nav .active a {
     color: $orange !important;
 }
 

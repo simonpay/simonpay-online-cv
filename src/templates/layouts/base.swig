@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" id="home">
 <head>
 	<title>{{meta.title}}</title>
 	<meta charset="utf-8">
@@ -26,7 +26,7 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
 
 {{>body}}
 

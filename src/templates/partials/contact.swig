@@ -1,4 +1,4 @@
-<section id="contact">
+<section class="js-section" id="contact">
 	<div class="container">
 		<h1><span class="section-num">#03</span> Contact</h1>
 	</div>

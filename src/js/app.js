@@ -40,7 +40,7 @@ $(function() {
     setportfoliotext();
 
     $('nav a').on('click', function(){
-        if($(window).width() < 480){
+        if($(window).width() < 700){
             $(".navbar-toggle").click();
         }
     });
@@ -145,14 +145,6 @@ $(function() {
 
     $("#footer--year").html(GetTodayDate());
 
-
-    // iframe for more4 logo - not used currently
-    // $('iframe').load( function() {
-    //     $('iframe').contents().find("head");
-    //       // .append($("<style type='text/css'>  body{background: red;}  </style>"));
-    // });
-
-
     // scroll to link from hash in url
     // use _ to prevent browser from auto setting scroll pos to el
     var elem = $( window.location.hash.replace("#_", "#") );
@@ -164,9 +156,10 @@ $(function() {
             500,
             {
                 easing: 'swing',
-                offset: -80
+                offset: -50
             }
         );
     }
 
 });
+

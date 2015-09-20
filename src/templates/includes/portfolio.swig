@@ -1,4 +1,4 @@
-<section id="portfolio">
+<section class="js-section" id="portfolio">
 	<div class="container">
 		<h1 id="h1-portfolio"><span class="section-num">#02</span> Portfolio</h1>
 	</div>

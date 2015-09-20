@@ -3,15 +3,16 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
+    "Retina-sprites-for-Compass": "*",
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass-official": "~3.2.0",
+    "bourbon": "~4.2.1",
     "jquery": "1.10.2",
+    "jquery-waypoints": "~2.0.5",
+    "jquery.scrollTo": "~1.4.13",
     "modernizr": "latest",
     "neat": "~1.5.1",
-    "bourbon": "~4.2.1",
-    "scut": "~0.10.3",
     "normalize-scss": "~3.0.0",
-    "bootstrap-sass-official": "~3.2.0",
-    "jquery.scrollTo": "~1.4.13",
-    "jquery-waypoints": "~2.0.5",
-    "Retina-sprites-for-Compass": "*"
+    "scut": "~0.10.3"
   }
 }
